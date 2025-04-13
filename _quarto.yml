@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "xxx"
+  title: "Blog"
   navbar:
     right:
       - about.qmd
@@ -12,8 +12,6 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: styles.css
 
 editor: visual
-
