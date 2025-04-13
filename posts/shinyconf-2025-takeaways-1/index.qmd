@@ -1,0 +1,37 @@
+---
+title: "ShinyConf2025 Takeaways [1/6]"
+author: "Philippe PERET"
+date: "2025-04-13"
+categories: [news, shiny, performance, ShinyConf]
+image: "thumbnail.jpg"
+---
+
+# My Takeaways From the ShinyConf2025: Scaling & Performance
+
+![](thumbnail.jpg)
+
+I thought I would write a quick feedback about the ShinyConf2025 while cleaning up my draft notes over the weekend to make this post, but it ended up with way to much content for a single article!
+
+Indeed, the agenda was quite intense with so many topics wrapped in workshops, talks, key notes & app demonstrations. So this is going to become a series of posts, to break down the overall outcome into dedicated topics.
+
+## Scaling & Performance
+
+It's a huge topic for me as I'm used to work with big amounts of data from the logistic & transportation industry and I know how critical it is to dive into the architecture of the apps & code to implement specific solutions to specific challenges.
+
+The workshop *"Optimizing Performance in Shiny: Tips and Best Practices"* by [Samuel Calderon](https://linkedin.com/in/samuelcalderon) on the opening day was a great opportunity to get or update our checklists with profiling tools & best practices. One particular example I want to explore is the plot rendering delegation to the browser especially with complex data visualizations and their numerous layers.
+
+Another highlight was the [Curbcut](https://montreal.curbcut.ca/) example. The case study in building such a large Shiny app is so challenging that they had to think each and every steps of the development as a specific constraint to be solved.
+
+How to handle such a large amount of data? How to display the information in a timely manner?\
+Those very diverse challenges require to forget about what we are used to do and make trade-offs.
+
+I had the opportunity to build a dashboard for a logistic company with millions of rows in our datalake (about a hundred thousand of them being added on daily basis) and thousands of columns. From the very beginning we had to decide how much of the *real-time* aspect we would agree to loose as there is no way to make in memory computation for such a large amount of data.
+
+This example is a very good way to understand about **datamart** and how they can solve this by adding a layer of asynchronicity towards costly computations.
+
+It also brought to the front how critical the data format choice is. I - *as many of us* - tend to keep it simple and use the `csv` format as a default when working with tabular data files. It's clear that some of my projects would benefit from trying `qs` and `parquet` to reduce loading times.
+
+My advice in this domain would be to always - *no matter what the size of the project is* - look at the parts, components or steps that require the most resources. And think of a way to reduce it.\
+From this best practice, you will learn a lot and build experience on how to handle those constraints.
+
+Feel free to comment with your own takeaways from the conference on this topic!
