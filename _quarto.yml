@@ -15,6 +15,3 @@ format:
     theme: 
       - cosmo
       - custom.scss
-    mainfont: Quicksand
-
-editor: visual
