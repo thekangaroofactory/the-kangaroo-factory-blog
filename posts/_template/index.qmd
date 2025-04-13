@@ -2,7 +2,8 @@
 title: "Article Title"
 author: "Philippe PERET"
 date: "2025-xx-xx"
-categories: [news]
+categories: [news, code, analysis]
+image: "thumbnail.jpg"
 draft: true
 ---
 
