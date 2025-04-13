@@ -1,0 +1,13 @@
+---
+title: "Article Title"
+author: "Philippe PERET"
+date: "2025-xx-xx"
+categories: [news]
+draft: true
+---
+
+# Awewome Title!
+
+![](thumbnail.jpg)
+
+Some text goes here.
