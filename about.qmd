@@ -6,10 +6,13 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/philippeperet/
     - icon: github
       text: Github
       href: https://github.com/thekangaroofactory
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/@TheKangarooFactory
 ---
 
 Mostly solving problems, one jump at a time.
