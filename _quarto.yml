@@ -12,7 +12,8 @@ website:
         href: https://www.linkedin.com/in/philippeperet/
 format:
   html:
-    theme: cosmo
-    css: custom.scss
+    theme: 
+      - cosmo
+      - custom.scss
 
 editor: visual
