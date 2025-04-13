@@ -1,48 +1,8 @@
 
 
-/* -----------------------------------------------------------------------------
-   Variables
-------------------------------------------------------------------------------*/
+/*-- scss:defaults --*/
 
+// Base document colors
 $body-bg: #2d3037;
-
-
-:root {
-  
-  /* -- colors -- */
-  --tkf-color-background: #2d3037;
-  --tkf-color-primary: #e9dfc7;
-  --tkf-color-secondary: #ececec;
-  --tkf-color-light: #d9cec2;
-  --tkf-color-contrast: #726d67;
-  --tkf-color-accent: #bf906c;
-  --tkf-color-tag: #2d3037;
-  --tkf-color-icon: #726d67;
-  
-}
-
-
-/* -----------------------------------------------------------------------------
-   Styles
-------------------------------------------------------------------------------*/
-
-/* main background color 
-body {
-
-  background-color: var(--tkf-color-contrast);  
-  
-}*/
-
-/* header background color */
-.navbar {
-  
-  background-color: var(--tkf-color-accent);
-  
-}
-
-/* banner background color */
-.quarto-title-banner {
-  
-  background-color: var(--tkf-color-contrast);
-  
-}
+$body-color: white;
+$link-color: #75AADB;
