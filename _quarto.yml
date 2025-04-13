@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  title: "Blog"
+  title: "TheKangarooFactory Blog"
   navbar:
-    title: "Blognav"
-    logo: favicon_196x196.png
+    title: "Blog"
+    logo: tkf_logo.png
     right:
       - about.qmd
       - icon: linkedin
