@@ -6,10 +6,12 @@ website:
   navbar:
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/thekangaroofactory
       - icon: linkedin
         href: https://www.linkedin.com/in/philippeperet/
+      - icon: github
+        href: https://github.com/thekangaroofactory
+      - icon: youtube
+        href: https://www.youtube.com/@TheKangarooFactory
 format:
   html:
     theme: 
