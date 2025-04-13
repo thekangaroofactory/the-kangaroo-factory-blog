@@ -4,14 +4,19 @@ project:
 website:
   title: "Blog"
   navbar:
+    title: "Blognav"
+    logo: favicon_196x196.png
     right:
       - about.qmd
       - icon: linkedin
         href: https://www.linkedin.com/in/philippeperet/
+        target: _blank
       - icon: github
         href: https://github.com/thekangaroofactory
+        target: _blank
       - icon: youtube
         href: https://www.youtube.com/@TheKangarooFactory
+        target: _blank
 format:
   html:
     theme: 
