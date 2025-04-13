@@ -7,12 +7,15 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/philippeperet/
+      target: _blank
     - icon: github
       text: Github
       href: https://github.com/thekangaroofactory
+      target: _blank
     - icon: youtube
       text: YouTube
       href: https://www.youtube.com/@TheKangarooFactory
+      target: _blank
 ---
 
 Mostly solving problems, one jump at a time.
