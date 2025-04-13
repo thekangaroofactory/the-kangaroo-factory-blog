@@ -5,17 +5,17 @@ date: "2025-04-13"
 categories: [news]
 ---
 
-![](thumbnail.jpg)
-
 # Welcome!
 
-Just as the portfolio application has been on my todo list for so long, this blog comes a long way.\
+![](thumbnail.jpg){height=300}
+
+Just as the portfolio application has been on my todo list for so long, this blog comes a long way.
 
 Throughout my career, I've been used to sharing best practices, methodologies & documentation.
 
 When started out as a technical support engineer, one of my first assignment was to setup, deploy and document methodologies. After spending almost 15 years in customer support organizations, documenting customer requests, incident reports as well as knowledge base has become a daily life activity.
 
-For the same reasons, but also because I've being doing mentoring with new colleagues as well as students whom I support in their learning program, I also enjoy sharing those bests practices & knowledge with others.\
+For the same reasons, but also because I've being doing mentoring with new colleagues as well as students whom I support in their learning program, I also enjoy sharing those bests practices & knowledge with others.
 
 In short, it has become obvious that such material was highly necessary for me to better interact with the community. In addition to this blog, I've also created a YouTube channel for those who prefer the video support (link on the banner).
 
