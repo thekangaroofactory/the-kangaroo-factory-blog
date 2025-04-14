@@ -1,0 +1,31 @@
+---
+title: "ShinyConf2025 Takeaways [3/6]"
+author: "Philippe PERET"
+date: "2025-04-14"
+categories: [news, shiny, AI, ShinyConf]
+image: "thumbnail.jpg"
+---
+
+# My Takeaways From the ShinyConf2025: Data Visualization & User Experience
+
+![](thumbnail.jpg)
+
+Because I love Data Visualization as well as app & dashboard design, I'm always happy to look for ways to improve my knowledge in this domain and get inspired by others work.
+
+I have also experienced situation where the technical features of a product were not sufficient to build adoption because of the global user experience. As we are all primarily focused on the data analysis & processing, we should not forget that *how* the output is perceived by the users is a big part of the success of any product.
+
+Interactive Data Visualization is definitely one key topic on my open source roadmap as I had the opportunity to witness how powerful it can be from licensed softwares (plot interactivity is a native feature in *PowerBI* for example).
+
+In addition to that, I encountered some challenges in the recent days that were addressed during the conference. In particular, I built a prototype to automate the production of a profile / resume from plain text and ran into many issues while trying to get homogenized results with HTML, pdf & Word file formats.
+
+My choices (of course excluding my own session) for this domain:
+
+-   *"Theming Made Easy: Introducing [brand.yml](https://posit-dev.github.io/brand-yml/) for Shiny"* by [Garrick Aden-Buie](https://www.garrickadenbuie.com/)\
+    No doubt that this approach could help homogenizing look & feel beyond branding[^1]
+
+-   "*The '[ggiraph](https://davidgohel.github.io/ggiraph/)' Cookbook: Recipes for Interactive and Performant Shiny Visualizations*" by [Ardata](https://www.ardata.fr/)\
+    It's been a long time since I've put the package documentation page in my browser's favorite, but this introduction actually make me want to allow more time to explore it.
+
+-   {bslib} in general, I could observe during the session that several projects & dashboards rely on this package to implement *Boostrap* cards & layout to produce modern design and navigation experience.
+
+[^1]: After my session, I got several comments & questions about how I handled to make the plots fit with the global {bslib} theme.

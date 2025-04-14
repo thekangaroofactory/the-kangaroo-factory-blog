@@ -1,0 +1,35 @@
+---
+title: "ShinyConf2025 Takeaways [2/6]"
+author: "Philippe PERET"
+date: "2025-04-14"
+categories: [news, shiny, AI, ShinyConf]
+image: "thumbnail.jpg"
+---
+
+# My Takeaways From the ShinyConf2025: R, Shiny & AI
+
+![](thumbnail.jpg)
+
+Okay, we all read a lot about AI.\
+But I often feel very uncomfortable reading articles & posts about AI as it is very difficult to filter out the trendy statements & claims from the reality. I personally observe a huge gap between approaches promoted by AI experts (by experts I mean skilled & experienced people recognized in the community and by their peers) and the AI influencers.\
+I definitely recommend having a look at [Coursera](https://www.coursera.org/) courses & specializations if you want to get real knowledge and advice on either technical skills or how to start with AI projects.
+
+So I approached this part of the conference with curiosity and say a little mistrust, but was actually very impressed by how data exploration could get enriched by AI assistants & bots to provide specific insights ***in addition*** to the standard analysis & visualization (not in replacement as too many would say!).
+
+My main takeaway from this topic would be that **experimentation** is key (I was already convinced with that, even if most companies here in France believe they should just replicate / clone something that got successful or popular). Experimentation is essential to produce dedicated solutions to unique problems & challenges. It does not mean that it should last for years or burn outstanding budgets & resources. It should on the contrary be a best practice on the early phase of a project to determine dedicated approach based on proven thinking, not trends.
+
+It definitely makes me want to give it a try - what about adding an AI assistant to the Rain Forecast dashboard to navigate the data or identify when the predictions are doing good or not? That would definitely raise the project to a higher level.
+
+Here is my pick among all the AI dedicated sessions:
+
+-   "*Building LLM-Powered Shiny apps via ellmer and chatlas*" by [Carson Sievert](https://www.linkedin.com/in/carsonsievert/) and all the {ellmer} related sessions & tutorials.\
+    I believe they are great material to start with implementing LLMs as an extra tool to standard data analysis apps
+
+-   "*Harnessing Agentic AI with Shiny*" by [Novastorms](https://novastorms.ai/)\
+    The app showcase was such an impressive demonstration on this approach!
+
+-   Also the "*Tiny Shiny Hackathon*" discussion was very enriching thanks to the testimonies of the participants on the benefits & challenges to use LLMs as coding assistant
+
+In conclusion, I believe there were many examples of realistic approaches toward using LLMs and AI in general to generate user specific insights that we can get inspiration from.
+
+Feel free to comment with your own takeaways from the conference on this topic!
