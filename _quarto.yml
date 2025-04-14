@@ -21,4 +21,6 @@ format:
     theme: 
       - cosmo
       - custom.scss
-    css: gfont/css/quicksand.css
+    css: 
+      - gfont/css/quicksand.css
+      - custom.css
