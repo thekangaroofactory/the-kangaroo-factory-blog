@@ -1,7 +1,7 @@
 ---
 title: "ShinyConf2025 Takeaways [1/6]"
 author: "Philippe PERET"
-date: "2025-04-13"
+date: "2025-04-14"
 categories: [news, shiny, performance, ShinyConf]
 image: "thumbnail.jpg"
 ---
