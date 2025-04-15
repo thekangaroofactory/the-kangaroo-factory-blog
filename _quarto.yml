@@ -24,3 +24,5 @@ format:
     css: 
       - gfont/css/quicksand.css
       - custom.css
+    include-in-header:
+      file: css/iframe-resizer.child.js
