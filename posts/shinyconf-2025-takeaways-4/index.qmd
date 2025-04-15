@@ -1,0 +1,33 @@
+---
+title: "ShinyConf2025 Takeaways [4/6]"
+author: "Philippe PERET"
+date: "2025-04-15"
+categories: [news, shiny, ShinyConf]
+image: "thumbnail.jpg"
+---
+
+# My Takeaways From the ShinyConf2025: Real World Use Cases
+
+![](thumbnail.jpg){width="800"}
+
+I usually tend to have some of my side projects not so related to real world use cases as it's also a way for me to explore new things without much constraints & requirements and then - *in a later step* - reuse what I've learned from them to solve real world issues.
+
+But I have also always been someone who could literally feel the pains in our daily life at work and could never accept that in so many cases they are left unanswered.
+
+For these reasons, I loved the opportunity we had to discover so many real life use cases & projects with which we can link our own daily challenges.
+
+I spent most of my career working with big companies from the industry, transportation & logistic fields, where the big players have a quasi-monopoly role. As we are today experiencing challenging times when independence, sovereignty & resilience have become critical topics, I was particularly happy to observe various practical use cases about R Shiny adoption beyond the traditional Science / Pharma domains.
+
+In particular, examples about switching from proprietary software & platforms like *PowerBI* to R & Shiny were very convincing (I'm thinking about a dedicated / longer post on this topic).
+
+Here are the examples I've chosen, but so many others could be cited:
+
+-   "*Building [Elkem](https://www.elkem.com/)'s R Universe, One Package at a Time*" by [Recle Vibal](https://www.linkedin.com/in/recleev) & [Kjell Håkon Berget](https://www.linkedin.com/in/kjell-h%C3%A5kon-berget-b8bba33/)
+
+-   "*Streamlining Portfolio Management with Shiny*" by [Ashley Dennie](https://www.linkedin.com/in/ashley-dennie/)
+
+-   "*Joel's Air Quality Application*" by [Joel Duah](https://www.linkedin.com/in/joel-duah-b07714115/)
+
+-   "*Unified Innovation: How We Started Our Shiny DevOps Journey*" by [Liz Whelan-Jackson](https://www.linkedin.com/in/liz-whelan-jackson-8b5944129/)
+
+What real world use case or daily pain would you solve with the lessons learned from the conference?
