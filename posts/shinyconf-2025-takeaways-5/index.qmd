@@ -1,0 +1,25 @@
+---
+title: "ShinyConf2025 Takeaways [5/6]"
+author: "Philippe PERET"
+date: "2025-04-16"
+categories: [news, shiny, python, ShinyConf]
+image: "thumbnail.jpg"
+---
+
+# My Takeaways From the ShinyConf2025: Shiny for Python
+
+![](thumbnail.jpg)
+
+This was probably the very one topic on which I was not expecting that it would actually shift my mindset in such a radical way.
+
+I'm definitely a R / Shiny enthusiast and as my [GitHub](https://github.com/thekangaroofactory) stats show I'm doing about 80% R versus 15% Python - mostly to support mentoring activities at [OpenClassrooms](https://openclassrooms.com) as well as do some modeling (for example with [TensorFlow](https://www.tensorflow.org)).
+
+But I'm also a realistic person and I work in a field / country where a wide majority of the data science related code is made of Python. A quick look at the job descriptions and freelance missions demonstrates how popular Python has become and is now in a position to be a standard in many companies stack.
+
+While I keep the same enthusiasm for R when it comes to data analysis & visualization, I sometimes feel like such a niche specialization makes me a bit invisible among the data science community in France (except traditional field like Research, Finance is the only domain where I see R in the stacks).
+
+That was until the very first day of the conference:
+
+-   "*Workshop: Transferring your R Shiny skills to Python*" by [PJ Van Camp](https://www.linkedin.com/in/pjvancamp/)
+
+The workshop helped me realize that mixing both my knowledge about Shiny and Python could help me get stronger at Python with a specific skill that is not so common yet in the community. Therefore I don't see Python as a replacement or obligation but as an opportunity to grow specific skills that can be explained by something more robust than '*python has become so popular*'.
