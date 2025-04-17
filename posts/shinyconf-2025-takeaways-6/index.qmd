@@ -1,0 +1,40 @@
+---
+title: "hinyConf2025 Takeaways [6/6]"
+author: "Philippe PERET"
+date: "2025-04-17"
+categories: [news, shiny, ShinyConf]
+image: "thumbnail.jpg"
+---
+
+# My Takeaways From the ShinyConf2025: First experience as a speaker
+
+![](thumbnail.jpg)
+
+How could I ommit to share my own experience as a speaker at the conference?
+
+I believe we all observed many tallented speakers (not speaking about myself here), some of them whom are obviously used to speak in past or similar events. This may give the impression (it was true for me) that we don't deserve to be given a chance to share our own work in front of highly skilled or experienced professionals.
+
+But my main takeaway is actually that the community as well as the organizers & back stage team are very welcoming and made everything for not so experienced speakers to be able to share their work. Don't misunderstand me. I already had the opportunity to speak in front of say too many people as well as lead numerous meetings & steering commitees but it was actually my first ShinyConf and I had no idea what to expect.
+
+Surprisingly, my first feeling after my session was "***I should have done it live!***" instead of a pre-recorder video. The first reason is that I felt like it creates more interactions when the audience and the speaker are having say the same experience compared to being waiting in the background (probably not so happy to watch / hear yourself). Also - and I realize this is a very personnal approach - as I made the video almost 2 weeks before the event, and had totally different activities in between, I would have done something different. Probably based on my current mindset rather than the 2-week-ago mindset, but surely based on what I could hear so far in the conference and link to other sessions which would definitely give added value to the audience to wrap up their own takeaways.
+
+From the comments & messages I got during / after the session, I also would make the presentation more focussed on:
+
+-   how to implement {bslib}: I thought everyone had seen the video from ShinyConf2024 and didn't want to just repeat
+
+-   how to handle the data in the background: maybe show the database & API and how the data travel the pipeline
+
+-   how to make the cards & plot somehow disappear behind the dark theme to forget about the grid dashboard syndrome
+
+-   how to sync the plot look & feel with the global theme
+
+-   and finally prepare some offline materials for the audience to explore after the session (tutorials, exercices, ...)
+
+Maybe it's worth to mention that it helped me grow a bit my network as I am quite new to the R / Shiny community which I believe will help me get some more visibility. It took me 5 years to get my first star on GitHub and got 9 more right after the session!\
+This definitely encourage me to share more of my work, create new content and even maybe some videos & tutorials.
+
+In short, I realized my own expectations from the conference were to get some insights on how to improve my own apps, get tips and references about valuable approaches, and basically leave the conference with a todo list for the next weeks or months.
+
+Because that's exaclty what my notes contains after the conference. I have a bunch of packages & topics to explore and find ways to implement them into my own portfolio...
+
+... which actually gave me the idea - *even before the end of the 2025 edition* - to already start working on a "*How the ShinyConf2025 helped my apps reach next level*" session to apply for next year's edition!
