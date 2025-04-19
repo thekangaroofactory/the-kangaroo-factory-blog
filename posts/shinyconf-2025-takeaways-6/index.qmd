@@ -1,5 +1,5 @@
 ---
-title: "hinyConf2025 Takeaways [6/6]"
+title: "ShinyConf2025 Takeaways [6/6]"
 author: "Philippe PERET"
 date: "2025-04-17"
 categories: [news, shiny, ShinyConf]
