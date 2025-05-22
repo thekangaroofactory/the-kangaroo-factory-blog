@@ -1,0 +1,49 @@
+---
+title: "Article Title"
+author: "Philippe PERET"
+date: "2025-05-22"
+categories: [R, package, kitems, iker]
+image: "thumbnail.jpg"
+draft: false
+---
+
+# Towards an R package to wrap data connector functions
+
+![](thumbnail.jpg)
+
+## A bit of context
+
+Back in 2022, while working on various projects, I began to realize that - *when your application isn't limited to “simply” loading and displaying external data* - it takes a lot of effort and time to set up the foundations of a new project because you have to manage all the CRUD (Create / Read / Update / Delete) operations on your objects before you can concentrate on analyzing or visualizing the data you've just created.
+
+At the same time, I also realized that these operations could be factorized into a framework that would rely on an object that would ignore its own purpose. In other words, instead of creating an invoice object to manage a list of invoices or a company object to manage a list of companies, I would create an item object as something that belongs to a list of things and 'instantly' factorize many operations or features into a single component to reuse in many apps.
+
+That's how the {[kitems](https://thekangaroofactory.github.io/kitems/)} project was born.\
+Or more precisely how the idea of the project was born.\
+It took some time (I was on a full time mission at the moment) before I started to explore how this idea could actually materialize and become a reality.\
+When I could allow more time into synthesizing the results of those explorations, I came up with the first specifications and dived into coding this as an experimental package.
+
+Since the package has reached a certain level of stability in the last quarter of 2024, I started to use it inside personal project apps as a proof of concept first, and to decide what the next milestone should be. Indeed, many features could be added at this stage, but it required to validate the core concepts of the package first.
+
+## The data connector challenge
+
+There is also one point that was left unanswered in the first specifications.\
+As I focused on the challenge to handle a flexible item that could have different data models and still be manageable by the same dynamic functions, I decided that allowing multiple data persistence means would come in a second phase.\
+I naturally started with the .csv file format as I was dealing with tabular data, low volumes and no concurrent usage, but kept in mind that more formats and connectors should be added in the future.
+
+One constraint when dealing with data storage is that the various means (file, database, ...) have very different ways to access and manage the data persistence.\
+In case of file, any kind of modification on the tabular data will end up in overwriting the whole file as you can't update or delete a specific line.\
+On the contrary, a database allows row update so there is no reason to send all rows to an update statement.
+
+It means - *in case your project relies on several types of data source* - that you need to implement different approaches to handle the data persistence. It also means that implementing different data connectors inside the framework would create extra complexity and be a source of instability each time I would add / modify one of them.
+
+## A Package dedicated to data connectors
+
+That's when I came up with the idea that the *item* should not only ignore its purpose, but should also ignore its data persistence mean. That is to say, the way the data persistence is managed should not be part of the {[kitems](https://thekangaroofactory.github.io/kitems/)} package itself.
+
+One advantage of having a dedicated component to manage data persistence is that it could be used with or without {[kitems](https://thekangaroofactory.github.io/kitems/)} itself and follow it's own development roadmap.
+
+The objective is clearly to call some load() / save() functions and let them manage how to handle the data access and persistence based on parameters that are set at the app / project level.
+
+{[iker](https://github.com/thekangaroofactory/iker)} will be the name of that new project.\
+The name comes from a series of books that tell the story of a scribe in ancient Egypt.\
+A scribe was the official responsible for drafting administrative acts.
