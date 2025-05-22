@@ -1,5 +1,5 @@
 ---
-title: "Article Title"
+title: "Towards an R package to wrap data connector functions"
 author: "Philippe PERET"
 date: "2025-05-22"
 categories: [R, package, kitems, iker]
