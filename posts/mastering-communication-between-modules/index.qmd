@@ -2,7 +2,7 @@
 title: "Mastering Communication between Shiny Modules is out!"
 author: "Philippe PERET"
 date: "2025-09-04"
-categories: [news, r, shiny, book]
+categories: [news, R, shiny, book]
 image: "thumbnail.jpg"
 ---
 
