@@ -1,0 +1,28 @@
+---
+title: "Mastering Communication between Shiny Modules is out!"
+author: "Philippe PERET"
+date: "2025-09-04"
+categories: [news, r, shiny, book]
+image: "thumbnail.jpg"
+---
+
+# Mastering Communication between Shiny Modules is out!
+
+![](thumbnail.jpg)
+
+One of the greatest challenges faced while thinking and developing the architecture of modular R/Shiny apps is the communication between the different modules and the main application server.
+
+Especially when the apps have multiple data sources or are getting more features that can not only consume but also modify the data.
+
+My overall feeling is that there’s a lack of documentation out of the basic examples in this domain and I had to spend a lot of time exploring how the communication *actually* works.
+
+I hope this guide will help you put all the pieces together, and help us all make smart choices.
+
+Link to the book: \
+<https://thekangaroofactory.github.io/communication-between-shiny-modules/>
+
+Link to the GitHub repository with all the examples: \
+<https://github.com/thekangaroofactory/template-r-shiny-communication>
+
+Or course, feel free to contact me if you have additional use cases that could be covered in this guide.\
+Also both GitHub repositories can get issues for things to fix & typos.
