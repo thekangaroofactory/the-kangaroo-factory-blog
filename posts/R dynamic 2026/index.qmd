@@ -1,14 +1,14 @@
 ---
 title: "The R language starts 2026 with strong momentum!"
 author: "Philippe PERET"
-date: "2025-01-13"
+date: "2026-01-13"
 categories: [news, R]
-image: "thumbnail.PNG"
+image: "thumbnail.jpg"
 ---
 
 # The R language starts 2026 with strong momentum!
 
-![](thumbnail.png)
+![](thumbnail.jpg)
 
 Whether in terms of available online content (TIOBE index) or web searches performed (PYPL index), R is making progress:
 
