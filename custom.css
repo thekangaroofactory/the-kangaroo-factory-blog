@@ -8,3 +8,13 @@ h1, h2, h3, {
 p {
   margin-bottom: 1.5rem;
 }
+
+
+/* Custom classes */
+
+pre.sourceCode {
+  
+  background-color: #2d3037;
+  
+  
+}
