@@ -3,7 +3,7 @@ title: "Package Development is (Data) Project Management"
 author: "Philippe PERET"
 date: "2026-03-22"
 categories: [code, project, package]
-image: "thumbnail.jpg"
+image: "thumbnail.png"
 ---
 
 # Package Development is (Data) Project Management
@@ -22,7 +22,7 @@ For example, when no tool was available to monitor the error logs of a big data 
 In my mind, it raised the need to be able to develop tools with both limited scope & resources available but great ROI because solving daily pains. The development of such tool is considered too costly mostly because the basis takes a lot of time while the feature part can't be developed on its own.\
 A package that would wrap the costly part would also enable those quick wins, hence save time and money.
 
-These very few lines already introduced additional activities, like collecting business needs, ideation & scoping.
+These very few lines already introduced additional activities, like collecting business needs, design & scoping.
 
 ## A package is not a one-shot delivery
 
