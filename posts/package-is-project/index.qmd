@@ -19,8 +19,7 @@ Package development is an attempt to solve a specific issue for which there is n
 
 Many of those issues are detected when working on other projects.\
 For example, when no tool was available to monitor the error logs of a big data pipeline, and it was not among the priorities to have one so almost no resources were available to make such tool.\
-In my mind, it raised the need to be able to develop tools with both limited scope & resources available but great ROI because solving daily pains. The development of such tool is considered too costly mostly because the basis takes a lot of time while the feature part can't be developed on its own.\
-A package that would wrap the costly part would also enable those quick wins, hence save time and money.
+In my mind, it raised the need to be able to develop tools with both limited scope & resources available but great ROI because solving daily pains. The development of such tool is considered too costly mostly because the basis takes a lot of time while the feature part can't be developed on its own. A package that would wrap the costly part would also enable those quick wins, hence save time and money.
 
 These very few lines already introduced additional activities, like collecting business needs, design & scoping.
 
@@ -66,7 +65,7 @@ But also because the best practices are very strict when it comes to package dev
 (R for example has a check tool that will force you to reach a very high standard before you can submit your package to the community).
 
 This leads to architecture which is a very critical part of package development.\
-Architecture of the package itself since you can't just put everything in one folder as some object will be needed for the development or test but not released to the user.\
+Architecture of the package itself since you can't just put everything in one folder as some objects will be needed for the development or test but not released to the user.\
 But also architecture of the assets of your package. Solving complex issues requires to slice them into smaller pieces easier to address (reason why I say it's Agile by nature). Without a careful study, functions may end up in what we call spaghetti-code that will create a technical debt in your applications up to a point where it may never be solved.
 
 ## Package development is 360°
@@ -74,7 +73,7 @@ But also architecture of the assets of your package. Solving complex issues requ
 Architecture itself leads to another critical aspect as you need to take care about the impacts of your project.\
 The idiomatic impact is that it will (hopefully) solve the initial issue. But there are also other impacts, for example how it will modify the dependencies since most packages rely on other – deeper – packages.
 
-And finally, the package development itself leads to many other mandatory activities like code governance (we call it version control) where you organize how the code is delivered, code release (building a ready-to-install package for the users), quality assessment (QA, automated & manual tests, test coverage), and of course capitalization as solving a specific issue requires the users to understand the issue itself as well as you solutions through exhaustive documentation & articles.
+And finally, the package development itself leads to many other mandatory activities like code governance (we call it version control) where you organize how the code is delivered, code release (building a ready-to-install package for the users), quality assessment (QA, automated & manual tests, test coverage), and of course capitalization as solving a specific issue requires the users to understand the issue itself as well as your solutions through exhaustive documentation & articles.
 
 To sum up, I would propose the following checklist wrapping all those activities:
 
