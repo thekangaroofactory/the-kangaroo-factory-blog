@@ -1,0 +1,71 @@
+---
+title: "Manage JavaScript dependencies from within a package"
+author: "Philippe PERET"
+date: "2025-04-11"
+categories: [R, shiny, javascript, package]
+image: "thumbnail.jpg"
+---
+
+![](thumbnail.jpg)
+
+## Introduction
+
+Inserting code in the head HTML tag from the UI side is part of a standard and well documented process when one need to add customization that requires some additional Javascript.
+
+It's a great opportunity to involve extra code that will help building many features to go beyond the standard ones provided by Shiny – hence extending its scope.
+
+That being said, from the very first time I had to use packages that involve both injecting JS code on the UI side **and** performing some actions on the server side based on functions provided by those packages, I felt uncomfortable about calling a specific util function in a different place from where the action occurs.
+
+Although there is obviously nothing technically wrong doing this – I believe many packages rely on a *use\_\** function to inject the JS dependencies on UI side – I feel some frustration asking someone who would implement my package to say *manually* insert my own dependencies on one side while they actually want to use the package functions from the server side. It's even more frustrating knowing the package user, while calling the *use\_\** function, has no idea what it is doing (I mean what code in inserted) or why & how it matters in your framework. It's actually a reason why they would use an existing package over writing their own code.
+
+I understand that said this way, it makes it more of a philosophical topic than a technical one.
+
+But trying to solve those kind of problems is actually a great way to dive into areas where we just cloned existing and popular methodologies until now without taking too much care about why we would actually do that and if any other approach even exists.
+
+## Context
+
+I have to tell you a bit more about the context of this exploration.
+
+After I started to study SVG and how to use them within Shiny apps, I decided to wrap the prototype code into a package that would serve as a basis to deliver SVG widgets.\
+To enable updating those widgets, some custom JavaScript is needed.
+
+Say the package contains a `donut()` function to create an HTML widget and its `update_donut()` helper that needs some JS code to update some value on client side. As long as the package user delegates me the task of creating those functions, I want my package to manage the dependency say **by itself**. Pretty much like you don't need to worry about how an `updateSelectInput()` communicates with a `selectInput()` to modify the available choices.
+
+## Starting point
+
+Because everything is connected to everything, this attempt was triggered by another work I did last week when I had to inject JavaScript to enable app monitoring. Because the recording is launched on server side, I wanted to insert the JS code from there – inside the init function – and save that function call from the UI side.
+
+This was solved by using an `insertUI` x `insertScript` combination.\
+Except in this case, because the recording is initiated at the very beginning of the server, you never need to check if the javascript is there or not (it would just mean the package is misused).
+
+## First attempt
+
+One approach I had in mind (also because I need to solve something similar for another package) was to use an entry in the input object to detect if the JavaScript code has already been inserted or not.
+
+At some point, the `donut()` function is called to create a widget. It would check if a given input exists and either insert the JavaScript & return the widget or just return the widget. The input is created by a JS instruction at the beginning of the code.
+
+While this basically works (you just need to make sure the app init doesn't throw a wrong status since the input object has no entry the first time it will fire an event), it still feels a bit hacky to involve an additional input in case it's not used anywhere to get a *real* value from the client side.
+
+## Better approach
+
+At this point, I realized we don't need to technically *prove* that the JavaScript code is there. We just need to **remember** if it has already been inserted or not.
+
+By *prove*, I mean that creating a specific input from the client side with JavaScript and being able to find it from the server side does prove that the JavaScript is here. But as long as we trust the Shiny capabilities to insert our script (and we do), there is no need to double check that the code is executed.
+
+Instead, we could just tag some information in a place of memory, so that the app will remember that our dependency was already injected and there is no need to do it again.
+
+That's when – as I was reading the session object documentation in Shiny – the userData entry clicked in my mind:
+
+*An environment for app authors and module/package authors to store whatever session-specific data they want.*
+
+## Proposal
+
+Whenever a user will call the `donut()` or any other widget function of the package, it will check if a specific object exists in the session userData environment. If not, it will insert the JavaScript dependency to enable update and log it in a specific userData entry. Next time a widget function is called, it will find the userData tag and skip the JS code insertion.
+
+This way, the user does not need to worry about manually inserting the dependency and the usage of the update widget functions is secured because we *know* that the necessary code is already on client side (if needed, it could even double check the userData entry).
+
+To demonstrate this approach, a template has been delivered:\
+[template-r-shiny-javascript-dependencies](https://github.com/thekangaroofactory/template-r-shiny-javascript-dependencies)
+
+It goes along with a wiki article:\
+[How to automatically manage JavaScript package dependencies?](https://thekangaroofactory.github.io/the-kangaroo-factory-wiki/articles/shiny/shiny-manage-javascript-dependencies.html)
