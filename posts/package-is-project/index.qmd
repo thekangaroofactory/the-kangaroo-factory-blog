@@ -1,6 +1,5 @@
 ---
 title: "Package Development is (Data) Project Management"
-author: "Philippe PERET"
 date: "2026-03-22"
 categories: [code, project, package]
 image: "thumbnail.png"

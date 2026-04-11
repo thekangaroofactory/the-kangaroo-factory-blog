@@ -1,6 +1,5 @@
 ---
 title: "Exploring the SVG path with R"
-author: "Philippe PERET"
 date: "2026-02-28"
 categories: [R, shiny, html, javascript]
 image: "thumbnail.png"

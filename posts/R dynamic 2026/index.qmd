@@ -1,6 +1,5 @@
 ---
 title: "The R language starts 2026 with strong momentum!"
-author: "Philippe PERET"
 date: "2026-01-13"
 categories: [news, R]
 image: "thumbnail.jpg"

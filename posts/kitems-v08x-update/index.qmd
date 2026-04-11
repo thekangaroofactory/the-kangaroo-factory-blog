@@ -1,6 +1,5 @@
 ---
 title: "Trade-offs are positive renunciations"
-author: "Philippe PERET"
 date: "2026-03-03"
 categories: [news, R, package, kitems]
 image: "thumbnail.png"
