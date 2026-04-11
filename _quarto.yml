@@ -5,17 +5,11 @@ website:
   title: "Blog"
   navbar:
     title: "Home"
-    right:
-      - about.qmd
-      # - icon: linkedin
-      #   href: https://www.linkedin.com/in/philippeperet/
-      #   target: _blank
-      # - icon: github
-      #   href: https://github.com/thekangaroofactory
-      #   target: _blank
-      # - icon: youtube
-      #   href: https://www.youtube.com/@TheKangarooFactory
-      #   target: _blank
+
+author:
+  - name: Philippe PERET
+    orcid: 0009-0003-9666-7490
+
 format:
   html:
     theme: 

@@ -1,6 +1,5 @@
 ---
 title: "Manage JavaScript dependencies from within a package"
-author: "Philippe PERET"
 date: "2026-04-11"
 categories: [R, shiny, javascript, package]
 image: "thumbnail.jpg"
