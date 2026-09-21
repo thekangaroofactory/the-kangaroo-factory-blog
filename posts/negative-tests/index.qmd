@@ -3,7 +3,6 @@ title: "Negative Testing"
 date: "2026-09-21"
 categories: [code, test, QA]
 image: "thumbnail.jpg"
-draft: true
 ---
 
 ![](thumbnail.jpg)
