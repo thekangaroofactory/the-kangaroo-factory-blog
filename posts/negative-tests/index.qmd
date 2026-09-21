@@ -1,0 +1,51 @@
+---
+title: "Negative Testing"
+date: "2026-09-21"
+categories: [code, test, QA]
+image: "thumbnail.jpg"
+draft: true
+---
+
+![](thumbnail.jpg)
+
+Quality Assessment (QA) is basically an evaluation of the quality of a system.
+
+While the naive approach is to make sure that this system works as expected (i.e. produces the expected result given the expected input), it's often also about making sure the system handles unexpected inputs in an acceptable manner.
+
+## A failure is acceptable, failing bad is not.
+
+I used to work as a Technical Support Engineer in a software development company, mostly dedicated to following POC (proof of concept) projects initiated at customers expected to buy or extend the usage of our products.
+
+By nature, the POC phases raise a lot of technical questioning as the customer will say stress test the product before making a decision that may involve a lot of money and drive the strategy for many years.
+
+Among those questions are concerns about the strength of the product.\
+Does it still behave correctly when scaling up compared to basic tests? Are performance acceptable when doing challenging tasks? In other words, is the system able to endure real life use cases.
+
+Again, because our products were dedicated to data management, the decision to deploy them in production had (hopefully positive) critical impacts on the strategy of the customers. Hence they performed extensive test campaigns that would push the products to their limits.\
+I for example worked for many years with a German car manufacturer that had more resources to perform those POC that we had developers to actually make that same product!
+
+## Crash test
+
+Because I used to study Automotive Engineering – I actually started my career at a French car manufacturer – their test campaign reminded me the car crash tests that are done to validate both the security of the people inside and outside of a car.
+
+For us, that meant they were performing stress tests that sometimes just try to break everything and see how it goes! This lead to an incredible amount of technical incidents – many of them considered as critical – to deal with before we could reach a GO decision to deploy in production.\
+This was up to the point were I somehow accidentally became an expert in critical situations, working almost always within task forces that were in charge of converging POC projects.
+
+## QA test coverage
+
+After many years of Technical Support – including several painful data migration projects – I had the opportunity to become the QA Leader on that same data software portfolio I have been working with for 15 years. One of the reason why I was selected for this role is the knowledge I had about the customer's expectations & frustrations.
+
+Because of my previous experience with POC, I was convinced that we needed to extend our test coverage to what I would call *negative tests*.
+
+From a QA point of view, this looks like non sense at first because quality assessment is basically checking that a product works as expected rather than checking that a product doesn't fail too bad at handling crazy situations.
+
+I say "crazy" because "unexpected" wouldn't capture the idea, and that's exactly my point.
+
+Whenever something unexpected happens, what are the impacts?\
+Do we throw an error? Is it clear enough for the user to understand what's wrong and how to fix it?\
+Do we handle that error in an acceptable manner?\
+Do we guaranty data integrity?
+
+Those questions are critical, because they say a lot about not only the quality but also the strength of a product.
+
+So I definitely recommend to allow a part of your test coverage focus on these unexpected situations and make sure you fail gracefully.
