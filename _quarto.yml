@@ -10,6 +10,9 @@ website:
     right:
       - icon: rss
         href: index.xml
+      - text: R-bloggers 
+        href: https://www.r-bloggers.com/
+        target: _blank
 
 author:
   - name: Philippe PERET
