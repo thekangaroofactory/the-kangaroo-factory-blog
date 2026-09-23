@@ -7,6 +7,8 @@ listing:
     - "title desc"
   type: default
   categories: true
+  feed: 
+    categories: [R]
   sort-ui: false
   filter-ui: false
 page-layout: full

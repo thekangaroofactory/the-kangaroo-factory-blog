@@ -2,9 +2,14 @@ project:
   type: website
 
 website:
-  title: "Blog"
+  title: "TKF Blog"
+  site-url: https://thekangaroofactory.github.io/the-kangaroo-factory-blog/
+  description: "Yet another data science blog"
   navbar:
     title: "Home"
+    right:
+      - icon: rss
+        href: index.xml
 
 author:
   - name: Philippe PERET
