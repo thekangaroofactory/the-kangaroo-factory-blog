@@ -21,12 +21,12 @@ In particular, examples about switching from proprietary software & platforms li
 
 Here are the examples I've chosen, but so many others could be cited:
 
--   "*Building [Elkem](https://www.elkem.com/)'s R Universe, One Package at a Time*" by [Recle Vibal](https://www.linkedin.com/in/recleev) & [Kjell Håkon Berget](https://www.linkedin.com/in/kjell-h%C3%A5kon-berget-b8bba33/)
+- "*Building [Elkem](https://www.elkem.com/)'s R Universe, One Package at a Time*" by [Recle Vibal](https://www.linkedin.com/in/recleev) & [Kjell Håkon Berget](https://www.linkedin.com/in/kjell-h%C3%A5kon-berget-b8bba33/)
 
--   "*Streamlining Portfolio Management with Shiny*" by [Ashley Dennie](https://www.linkedin.com/in/ashley-dennie/)
+- "*Streamlining Portfolio Management with Shiny*" by [Ashley Dennie](https://www.linkedin.com/in/ashley-dennie/)
 
--   "*Joel's Air Quality Application*" by [Joel Duah](https://www.linkedin.com/in/joel-duah-b07714115/)
+- "*Joel's Air Quality Application*" by [Joel Duah](https://www.linkedin.com/in/joel-duah-b07714115/)
 
--   "*Unified Innovation: How We Started Our Shiny DevOps Journey*" by [Liz Whelan-Jackson](https://www.linkedin.com/in/liz-whelan-jackson-8b5944129/)
+- "*Unified Innovation: How We Started Our Shiny DevOps Journey*" by [Liz Whelan-Jackson](https://www.linkedin.com/in/liz-whelan-jackson-8b5944129/)
 
 What real world use case or daily pain would you solve with the lessons learned from the conference?

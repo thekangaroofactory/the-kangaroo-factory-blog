@@ -1,7 +1,7 @@
 ---
 title: "ShinyConf2025 Takeaways [6/6]"
 date: "2025-04-17"
-categories: [news, shiny, ShinyConf]
+categories: [news, R, shiny, ShinyConf]
 image: "thumbnail.jpg"
 ---
 
@@ -19,15 +19,11 @@ Surprisingly, my first feeling after my session was "***I should have done it li
 
 From the comments & messages I got during / after the session, I also would make the presentation more focussed on:
 
--   how to implement {bslib}: I thought everyone had seen the video from ShinyConf2024 and didn't want to just repeat
-
--   how to handle the data in the background: maybe show the database & API and how the data travel the pipeline
-
--   how to make the cards & plot somehow disappear behind the dark theme to forget about the grid dashboard syndrome
-
--   how to sync the plot look & feel with the global theme
-
--   and finally prepare some offline materials for the audience to explore after the session (tutorials, exercices, ...)
+- how to implement {bslib}: I thought everyone had seen the video from ShinyConf2024 and didn't want to just repeat
+- how to handle the data in the background: maybe show the database & API and how the data travel the pipeline
+- how to make the cards & plot somehow disappear behind the dark theme to forget about the grid dashboard syndrome
+- how to sync the plot look & feel with the global theme
+- and finally prepare some offline materials for the audience to explore after the session (tutorials, exercices, ...)
 
 Maybe it's worth to mention that it helped me grow a bit my network as I am quite new to the R / Shiny community which I believe will help me get some more visibility. It took me 5 years to get my first star on GitHub and got 9 more right after the session!\
 This definitely encourage me to share more of my work, create new content and even maybe some videos & tutorials.

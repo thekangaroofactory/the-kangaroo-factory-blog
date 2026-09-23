@@ -1,7 +1,8 @@
 ---
 title: "Be bold and try something new!"
 date: "2025-09-25"
-categories: [kraw, explore, prototype]
+date-modified: last-modified
+categories: [R, explore, prototype, kraw]
 image: "thumbnail.jpg"
 ---
 
@@ -41,57 +42,39 @@ Here are the outcomes of this experiment:
 
 ### 1h effort - explore
 
--   Understand there is no easy path to do it (that's usually where we would decide to stop)
-
--   No R package or functions I could find online (C & Pythons libraries exist)
-
--   It will require reading binary files (basically a huge sequence of 0 & 1) & turn them into hexadecimal sequences to decode
-
--   Canon raw (CR2) files have a complex specification (Japanese style)
-
--   Find a great base schema how to read the file from the hexadecimal sequence of values
-
--   Understand the file actually contains several images & 'image file directories' (IFD)
+- Understand there is no easy path to do it (that's usually where we would decide to stop)
+- No R package or functions I could find online (C & Pythons libraries exist)
+- It will require reading binary files (basically a huge sequence of 0 & 1) & turn them into hexadecimal sequences to decode
+- Canon raw (CR2) files have a complex specification (Japanese style)
+- Find a great base schema how to read the file from the hexadecimal sequence of values
+- Understand the file actually contains several images & 'image file directories' (IFD)
 
 ### 1.5day effort - prototype
 
--   Read the binary file as a sequence of hexadecimal values (I tried a package but finally decided to go with R base functions)
-
--   Understand the basics about 'endianess' (order in which the bits are written on disk)
-
--   Understand how to navigate & retrieve values from sequence of bytes (offset)
-
--   Write basic functions to capitalize above notions
-
--   Match the first sequences of bytes with the CR2 schema and recover the expected info:\
-    (endianess, Canon raw marker, image width & height)
+- Read the binary file as a sequence of hexadecimal values (I tried a package but finally decided to go with R base functions)
+- Understand the basics about 'endianess' (order in which the bits are written on disk)
+- Understand how to navigate & retrieve values from sequence of bytes (offset)
+- Write basic functions to capitalize above notions
+- Match the first sequences of bytes with the CR2 schema and recover the expected info:\
+  (endianess, Canon raw marker, image width & height)
 
 ### 2 days effort - develop & package
 
--   Get the EXIF/Canon hexadecimal reference tags & write mapping\
-    (ex: tag 0x0100 for ImageWidth)
-
--   Define list of tags to keep
-
--   Rework prototype functions (clean, order, factorize & vectorize, structure sequence of calls)
-
--   Extend from prototype to extract all selected metadata
-
--   Extend from prototype to extract the images (the raw file contains 4 images)
-
--   Extend from prototype to wrap extracted metadata into a list
-
--   Extend from single file read to folder scan & return a data.frame of metadata
-
--   Implement basic data visualization function
-
--   Build package from all above
+- Get the EXIF/Canon hexadecimal reference tags & write mapping\
+  (ex: tag 0x0100 for ImageWidth)
+- Define list of tags to keep
+- Rework prototype functions (clean, order, factorize & vectorize, structure sequence of calls)
+- Extend from prototype to extract all selected metadata
+- Extend from prototype to extract the images (the raw file contains 4 images)
+- Extend from prototype to wrap extracted metadata into a list
+- Extend from single file read to folder scan & return a data.frame of metadata
+- Implement basic data visualization function
+- Build package from all above
 
 Next steps could be to:
 
--   extract information from the image itself (colors) to allow color based search for example
-
--   check for image classification based on the thumbnails
+- extract information from the image itself (colors) to allow color based search for example
+- check for image classification based on the thumbnails
 
 ## Conclusion
 
@@ -104,11 +87,9 @@ Even with this limitation in mind, investing 4 days of work into this experiment
 
 This was an opportunity to capitalize knowledge about:
 
--   binary files, endianess, hexadecimal sequences & corresponding schema
-
--   extracting human readable information from hexadecimal sequences
-
--   file architecture in general and RAW format in particular
+- binary files, endianess, hexadecimal sequences & corresponding schema
+- extracting human readable information from hexadecimal sequences
+- file architecture in general and RAW format in particular
 
 As an example, with a deeper knowledge of binary files, I now understand why .parquet format is much faster reading / writing data.frames than .csv (as far as parquet file are written column-wise, it means there is no need to navigate the binary file from an offset to another to retrieve the sequences of a column because it in fact a single sequence of bits!)
 
@@ -119,7 +100,7 @@ But the skills about binary files, how to decode them and file architecture in g
 
 The key takeaway for me in this experiment is that even with say 80% of missing skills toward the goal, It only took me 4 days to define a path toward the objective, learn those missing skills and capitalize on them to end up building a package.
 
-And that is possible because – I believe – **the purpose of an engineer (or any technician) is not to know everything, but to know how to learn everything**.
+And that is possible because – I believe – **the purpose of an engineer (or any technician) is not to know everything, but to know how to learn anything**.
 
 To extend to the global work environment, I believe it's a mistake to hire people mainly based on matching toward a list of hard skills.\
 We tend to consider that mastering an exhaustive list of hard skills increases the probability of success until it becomes a certainty.\

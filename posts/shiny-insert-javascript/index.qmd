@@ -1,5 +1,5 @@
 ---
-title: "Manage JavaScript dependencies from within a package"
+title: "Manage JavaScript dependencies from within R packages"
 date: "2026-04-11"
 categories: [R, shiny, javascript, package]
 image: "thumbnail.jpg"

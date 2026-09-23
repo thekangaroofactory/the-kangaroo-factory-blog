@@ -21,13 +21,11 @@ It definitely makes me want to give it a try - what about adding an AI assistant
 
 Here is my pick among all the AI dedicated sessions:
 
--   "*Building LLM-Powered Shiny apps via ellmer and chatlas*" by [Carson Sievert](https://www.linkedin.com/in/carsonsievert/) and all the {ellmer} related sessions & tutorials.\
-    I believe they are great material to start with implementing LLMs as an extra tool to standard data analysis apps
-
--   "*Harnessing Agentic AI with Shiny*" by [Novastorms](https://novastorms.ai/)\
-    The app showcase was such an impressive demonstration on this approach!
-
--   Also the "*Tiny Shiny Hackathon*" discussion was very enriching thanks to the testimonies of the participants on the benefits & challenges to use LLMs as coding assistant
+- "*Building LLM-Powered Shiny apps via ellmer and chatlas*" by [Carson Sievert](https://www.linkedin.com/in/carsonsievert/) and all the {ellmer} related sessions & tutorials.\
+  I believe they are great material to start with implementing LLMs as an extra tool to standard data analysis apps
+- "*Harnessing Agentic AI with Shiny*" by [Novastorms](https://novastorms.ai/)\
+  The app showcase was such an impressive demonstration on this approach!
+- Also the "*Tiny Shiny Hackathon*" discussion was very enriching thanks to the testimonies of the participants on the benefits & challenges to use LLMs as coding assistant
 
 In conclusion, I believe there were many examples of realistic approaches toward using LLMs and AI in general to generate user specific insights that we can get inspiration from.
 
