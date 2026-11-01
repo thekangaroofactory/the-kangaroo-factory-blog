@@ -1,0 +1,60 @@
+---
+title: "Newsletter - October 2026"
+date: "2026-10-31"
+categories: [news]
+image: "thumbnail.jpg"
+---
+
+# October 2026
+
+*\[Translated FR\>EN with [DeepL.com](https://www.deepl.com/?utm_campaign=product&utm_source=web_translator&utm_medium=web&utm_content=copy_free_translation)\]*
+
+The top priority this month is the gradual deployment of my packages to R-universe to gain greater visibility.
+
+Some research using AI tools has convinced me that we need to work on the SEO of our packages to influence search results and, in particular, ensure their reliability (LLMs sometimes tend to focus on a source that isn’t the most recent one).
+
+At the same time, I’ve noticed with my Data Analyst students that different AI tools don’t perform equally well across all domains, which suggests that we’ll need to combine models depending on our objectives.
+
+## Package updates:
+
+Work on the API theme, particularly to prepare for the migration of dependencies from {Rcurl} to {curl} via a common interface and reusable connectors.
+
+### Kitems v0.8.1
+
+Convergence:
+
+- specifically, the two patches released shortly after version v0.8.0 and the release on R-universe.
+
+### Iker v0.9.6
+
+The API connector is now available!
+
+- Ability to call APIs (in general), with two specific connectors for querying GitHub and interacting with the Supabase PostgreSQL Cloud.
+- New caching feature—with or without encryption.
+- Online documentation now available
+
+### Ktools v0.9.10
+
+Convergence for release on R-universe.
+
+### Kraw v0.9.0
+
+New package!
+
+- Allows you to read and extract metadata from CR2 images.
+- Option to scan a directory to generate a report.
+
+### Kmaps v0.9.1
+
+Geocoding
+
+- Specific connectors for querying OpenStreetMap’s Nominatim API (via iker), geocoding, and reverse geocoding.
+
+## Other updates:
+
+### Rain Forecast Dashboard
+
+The demo (created for ShinyConf2025) required two updates:
+
+- migration of the API to the new Supabase keys
+- fix for a bug that appeared in the charts
