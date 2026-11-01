@@ -1,13 +1,11 @@
 ---
 title: "Newsletter - October 2026"
-date: "2026-10-31"
+date: "2026-10-30"
 categories: [news]
 image: "thumbnail.jpg"
 ---
 
 # October 2026
-
-*\[Translated FR\>EN with [DeepL.com](https://www.deepl.com/?utm_campaign=product&utm_source=web_translator&utm_medium=web&utm_content=copy_free_translation)\]*
 
 The top priority this month is the gradual deployment of my packages to R-universe to gain greater visibility.
 
@@ -58,3 +56,5 @@ The demo (created for ShinyConf2025) required two updates:
 
 - migration of the API to the new Supabase keys
 - fix for a bug that appeared in the charts
+
+*\[Translated FR\>EN with [DeepL.com](https://www.deepl.com/?utm_campaign=product&utm_source=web_translator&utm_medium=web&utm_content=copy_free_translation)\]*
