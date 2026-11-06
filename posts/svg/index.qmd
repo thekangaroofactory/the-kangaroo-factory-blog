@@ -20,12 +20,12 @@ For example, to notify the progress of data loading.
 
 But for other use cases, the goal is not only to display a value between two limits, but to enrich the indicator with its context: if 20% of the annual revenue target is achieved by the end of Q1, don't we want to be able to see at a glance not only the 20% achieved, but also how far behind we are in reaching the end-of-year target?
 
-Like many, I have developed the (bad) habit of using graphics libraries to produce indicators that are not available in HTML. This tendency is accentuated by the “ease” of using these powerful graphics libraries, their ability to act in successive layers ([ggplot2](https://ggplot2.tidyverse.org/articles/ggplot2.html#layers)), and, of course, my knwoledge of these tools.
+Like many, I have developed the (bad) habit of using graphics libraries to produce indicators that are not available in HTML. This tendency is accentuated by the “ease” of using these powerful graphics libraries, their ability to act in successive layers ([ggplot2](https://ggplot2.tidyverse.org/articles/ggplot2.html#layers)), and, of course, my knowledge of these tools.
 
 However, there are limitations to this practice:
 
--   The output object is an image (HTML tag \<img\>) calculated/rendered on the server side
--   There is no animation when the value changes
+- The output object is an image (HTML tag \<img\>) calculated/rendered on the server side
+- There is no animation when the value changes
 
 A modification of the value causes the entire graph to be recalculated (unless the code is intelligently sectioned), resulting in a new image, and the replacement of the old one in the UI.
 
@@ -68,9 +68,9 @@ So here it's business as usual, read, experiment, learn & undertand.
 The second steps is to introduce some JavaScript to interact with the widget directly on UI side.\
 Here I can list a few resources from the Shiny documentation to start with:
 
--   [Packaging JavaScript code for Shiny](https://shiny.posit.co/r/articles/build/packaging-javascript/)
+- [Packaging JavaScript code for Shiny](https://shiny.posit.co/r/articles/build/packaging-javascript/)
 
--   [Communicating with Shiny via JavaScript](https://shiny.posit.co/r/articles/build/communicating-with-js/)
+- [Communicating with Shiny via JavaScript](https://shiny.posit.co/r/articles/build/communicating-with-js/)
 
 I would recommend to start with basics: update a specific value (here the progress) or a color.
 

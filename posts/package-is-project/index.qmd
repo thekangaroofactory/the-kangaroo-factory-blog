@@ -2,12 +2,12 @@
 title: "Package Development is (Data) Project Management"
 date: "2026-03-22"
 categories: [code, project, package]
-image: "thumbnail.png"
+image: "thumbnail.jpg"
 ---
 
 # Package Development is (Data) Project Management
 
-![](thumbnail.png)
+![](thumbnail.jpg)
 
 Package development is (too) often seen as a say *pure* programming activity.
 
@@ -45,11 +45,9 @@ Assessing both the issue and the options will end up in the definition of a gove
 
 This R&D phase iterates over development and test / validation throughout the different phases of such project:
 
--   POC (Proof Of Concept) = demonstrate it will work
-
--   Convergence = actually develop the features
-
--   Deploy
+- POC (Proof Of Concept) = demonstrate it will work
+- Convergence = actually develop the features
+- Deploy
 
 As for any project's lifecycle, production will raise additional needs that fit with the scope.\
 Hence looping over convergence & deploy.
@@ -76,20 +74,13 @@ And finally, the package development itself leads to many other mandatory activi
 
 To sum up, I would propose the following checklist wrapping all those activities:
 
--   collect business need
-
--   define scope & purpose (incl. objects, notions)
-
--   define architecture (how functions fit together & covers the scope)
-
--   code
-
--   test & validate
-
--   capitalize (documentation & articles)
-
--   lifecycle (versions & revisions)
-
--   iterate
+- collect business need
+- define scope & purpose (incl. objects, notions)
+- define architecture (how functions fit together & covers the scope)
+- code
+- test & validate
+- capitalize (documentation & articles)
+- lifecycle (versions & revisions)
+- iterate
 
 Which is pretty much what (data) project management is.
